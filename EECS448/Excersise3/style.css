@@ -1,0 +1,36 @@
+#Profile img {
+width:304px;
+height:228px;
+}
+#Profile ul {
+list-style-type:square;
+}
+#Profile p {
+  background-color: red;
+  color: white;
+  font-family: comic sans-serif;
+  font-size: 15pt;
+}
+#Profile h1 {
+  font-family: comic sans-serif;
+  font-size: 25pt;
+}
+#Future p {
+  background-color: black;
+  color: white;
+  font-family: comic sans-serif;
+  font-size: 10pt;
+}
+body
+{
+    opacity: 0.5;
+    background-color: #FFC733;
+    background-image: url(background);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body:hover
+{
+    opacity: 1.0;
+}

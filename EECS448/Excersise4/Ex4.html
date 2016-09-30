@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Excersice 3</title>
+	<style>
+  body {      background-color: red; border: 10px;}
+  p {     border-style: solid; border-width: 5px;}
+	</style>
+
+	</head>
+ 	<body>
+    <form id = "radio">
+      <input type="radio" name="num" value="num" onclick="myFunction(this.value)">0-255<br>
+      <input type="radio" name="hex" value="hex" onclick="myFunction(this.value)">00-FF<br>
+    </form>
+
+    <form id="numValue" class = "numValue">
+      Red:
+      <input type="number" id="numred" name="red" min="0" max="255"><br>
+      Green:
+      <input type="number" id="numgreen" name="green" min="0" max="255"><br>
+      Blue:
+      <input type="number" id="numblue" name="blue" min="0" max="255"><br>
+      Border<br>
+      Red:
+      <input type="number" id="bordernumred" name="red" min="0" max="255"><br>
+      Green:
+      <input type="number" id="bordernumgreen" name="green" min="0" max="255"><br>
+      Blue:
+      <input type="number" id="bordernumblue" name="blue" min="0" max="255">
+      Border Width:
+      <input type="number" id="width" name="width" min="0" max="5">
+      <input type="button" value="Submit" onclick="changeColor()">
+    </form>
+
+    <form id="hexValue" class = "hexValue">
+      Enter the proper Hexcode:
+      HexCode <br>
+      <input type="text" id="hexCode" name="hexCode"><br>
+        BorderHex:<br>
+        HexCode <br>
+        <input type="text" id="borderhexCode" name="hexCode"><br><br>
+
+        Border Width:
+        <input type="number" id="width" name="width" min="0" max="5">
+      <input type="button" value="Submit" onclick="changeColor()">
+    </form>
+
+
+    <p id="textBox">Here is the example text</p>
+
+ 	</body>
+
+  <script src="ex4.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</html>
